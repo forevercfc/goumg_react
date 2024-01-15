@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>index.html</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <hr />
+    <h1>메모이제이션</h1>
+    <p>
+      부모가 재랜더링(State) 될 때 Proce 될때, 부모가 재랜더링 될때 자믹과 손자
+      콤퍼넌트까지지련더링이 될때 불필요한 컴포넌트는 재런더링 되지 않도록
+      제어하 것을 말하며 매모이제이션은 이전 처리 결과를 저장해서 처리솏도를
+      높이는 기술이다. 필요할 때만 다시 계산하게 해서요한 처리를 줄일 수 있따.
+    </p>
+    <p>
+      <b>const Component=memo(()=>{})</b>
+    </p>
+    <hr />
+    <h1>
+      함수를 props로 받는 child1은 props가 변화했다고 판단해서 버튼을 클릭할 때
+      마다 불필요한 재랜더링을 한다. 이 현상을 피하기 위해선 함수를
+      메모이제이션해야한다. 함수를 메모이제이션하기 위해 useCallback함수를
+      사용한다.
+    </h1>
+  </body>
+</html>
