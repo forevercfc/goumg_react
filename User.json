@@ -1,0 +1,22 @@
+[
+{"id" 1,
+"name":"김태리",
+"age":24,
+"persomalColor":"blue"
+},
+{"id" 2,
+"name":"김희애",
+"age":40,
+"persomalColor":"brown"
+},
+{"id" 3,
+"name":"한가인",
+"age":30,
+"persomalColor":"pink"
+},
+{"id" 4,
+"name":"송해교",
+"age":35,
+"persomalColor":"purple"
+}
+]
